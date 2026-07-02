@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*/Fonte de letras para o site*/
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    background-color: white;
+    display: flex;
+    /* align-items: center;vertical (eixo)*/
+    justify-content: center; /* horizonatl (eixo)*/
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+
+.conteudo {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.org{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.cabecalho {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-barao{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#titulo-site {
+    color: green;
+    font-size: 60px;
+}
+
+.barra-menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+li{
+    border: 1px solid white;
+    padding: 115px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
